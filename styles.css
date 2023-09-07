@@ -1,0 +1,65 @@
+ h1{
+    background-color:red;
+ }
+ h2{
+    color:red;
+ }
+
+#left{
+    float:left;
+    width:25%;
+    color:red;
+
+}
+
+#mid
+{
+    float:left;
+    width:50%;
+    color:red;
+
+}
+#right
+{
+    float:right;
+    width:25%;
+    color:red;
+}
+ 
+
+#per
+{
+    float:left;
+    width:25%;
+    color:red;
+}
+
+#por
+{
+    float:left;
+    width:30%;
+    color:red;
+}
+
+#pname{
+    float:left;
+    width:25%;
+    color:red;
+}
+
+#lname{
+    float:left;
+    width:50%;
+    color:red;
+}
+
+#ag{
+    float:right;
+    width:25%;
+    color:red;
+}
+
+#col
+{
+    background-color: dimgray;
+}

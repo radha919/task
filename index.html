@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+
+<body>
+    <h1>Booking Form</h1>
+
+    <h2>Passenger</h2>
+    <hr />
+
+
+
+    <section id="col">
+        <div id="pname">
+            <label for="firstpname"> First Name</label><br>
+            <input id="firstpname" type="text" value="" />
+
+        </div>
+        <div id="lname">
+            <label for="lastpname"> Last Name</label><br>
+            <input id="lastpname" type="text" value="" />
+        </div>
+
+        <div id="ag">
+            <label for="age">Age</label><br>
+            <input id="age" type="number" value="" />
+        </div>
+
+
+        <br>
+
+        <br>
+
+
+
+        <div id="left">
+            <label for="from">Leaving From</label><br>
+            <select id="from">
+                <option>Gorakhpur</option>
+                <option>Haryana</option>
+                <option>Delhi</option>
+            </select>
+        </div>
+
+
+        <div id="mid">
+            <label for="to">Going To</label><br>
+            <select id="to">
+                <option>Mumbai</option>
+                <option>Chennai</option>
+            </select>
+        </div>
+
+        <div id="last">
+            <label for="class">Class</label><br>
+            <select id="class">
+                <option>First</option>
+                <option>Second</option>
+                <option>Third</option>
+            </select>
+        </div>
+        <br>
+
+        <div id="per">
+            <label for="period">Period From</label><br>
+            <input id="period" type="date" value="" />
+        </div>
+
+        <div id="por">
+            <label for="to">To</label><br>
+            <input id="to" type="date" value="" />
+        </div>
+
+
+
+
+        <input type="button" value="GO!" onclick="addProduct()" />
+
+    </section>
+
+
+
+    <div id="msg">
+
+    </div>
+    </div>
+    <h1>Program of flights</h1>
+    <div id="productdata"></div>
+
+    <script src="task.js"></script>
+</body>
+
+</html>
